@@ -59,7 +59,7 @@ nav a:hover {
     border: solid #000000 1px;
     border-radius: 10px;
     background-color: #ffeb3b;
-    background-image: url("/images/ga.png");
+    background-image: url("images/ga.png");
     background-position: center;
     background-size: 100%;
     float: left;
