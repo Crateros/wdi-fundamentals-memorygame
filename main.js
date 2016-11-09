@@ -51,10 +51,14 @@ function isTwoCards() {
 function matchTwo(cards) {
   // Prompt player if two cards are matched
   if (cards[0] === cards[1]) {
-    alert("You found a match!");
+    setTimeout(function() {
+      alert("You found a match!");
+      }, 1000);
   }
   else {
-    alert("Sorry, try again.");
+    setTimeout(function() {
+      alert("Sorry, try again.");
+      }, 1000);
   }
 }
 createCards();
