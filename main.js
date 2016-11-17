@@ -53,12 +53,12 @@ function matchTwo(cards) {
   if (cards[0] === cards[1]) {
     setTimeout(function() {
       alert("You found a match!");
-      }, 1000);
+    }, 350);
   }
   else {
     setTimeout(function() {
       alert("Sorry, try again.");
-      }, 1000);
+    }, 350);
   }
 }
 createCards();
