@@ -71,6 +71,11 @@ nav a:hover {
     font-weight: bold;
 }
 
+#button-wrapper {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 footer {
     background-color: #808080;
     text-align: center;

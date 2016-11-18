@@ -61,4 +61,19 @@ function matchTwo(cards) {
     }, 350);
   }
 }
+
+// Reset board button, executes clearCards function
+document.getElementById('reset-button').addEventListener('click', clearCards);
+
+// Clear board and setup a new game
+function clearCards () {
+  var refresh = document.getElementById('game-board');
+  // if (reset button clicked = true)
+  cardsInPlay = []
+  while (refresh.firstChild) {
+    refresh.removeChild(refresh.firstChild);
+  }
+  createCards();
+}
+
 createCards();
